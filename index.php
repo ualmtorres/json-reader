@@ -13,7 +13,7 @@ echo "<h1>Hola " . $characters->nombre . "</h1>";
  
         // set url
         //curl_setopt($ch, CURLOPT_URL, "http://localhost/json-producer");
-        curl_setopt($ch, CURLOPT_URL, "http://json");
+        curl_setopt($ch, CURLOPT_URL, "json");
         curl_setopt($ch,CURLOPT_FOLLOWLOCATION,true);
  
         //return the transfer as a string
