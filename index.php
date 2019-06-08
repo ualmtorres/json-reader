@@ -1,5 +1,5 @@
 <?php
-$url = 'json/index.php'; // path to your JSON file
+$url = 'http://json/index.php'; // path to your JSON file
 echo 'Llamando a ' . $url;
 
 $data = file_get_contents($url); // put the contents of the file into a variable
