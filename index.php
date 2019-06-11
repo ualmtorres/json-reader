@@ -10,10 +10,11 @@ echo "<h1>Hola " . $characters->nombre . "</h1>";
 
        // create curl resource
         $ch = curl_init();
+        $url = "json-producer";
  
         // set url
         //curl_setopt($ch, CURLOPT_URL, "http://localhost/json-producer");
-        curl_setopt($ch, CURLOPT_URL, "json");
+        curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch,CURLOPT_FOLLOWLOCATION,true);
  
         //return the transfer as a string
