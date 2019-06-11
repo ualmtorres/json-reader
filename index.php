@@ -10,7 +10,7 @@ echo "<h1>Hola " . $characters->nombre . "</h1>";
 
        // create curl resource
         $ch = curl_init();
-        $url = "json-producer";
+        $url = "json-producer:8080";
  
         // set url
         //curl_setopt($ch, CURLOPT_URL, "http://localhost/json-producer");
